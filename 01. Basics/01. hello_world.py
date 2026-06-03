@@ -3,7 +3,7 @@
 # message = 'bobby\'s world'
 # message = "bobby's world"
 # message = """Bobby is a nice boy
-# Bobby Madarchod"""
+# Bobby bad boy"""
 
 # print("message:", message)
 # print("Length of message:", len(message))
@@ -13,12 +13,12 @@
 # print(message[0:5]) # hello, 0 included 5 excluded
 # print(message[:5])  # hello, defualt start by 0
 
-# print(message[7:])  # Similar Analogy, goes till end from 7, This is called Slicing
+# print(message[7:])  # * Similar Analogy, goes till end from 7, This is called Slicing
 
 # String Methods
 # print(message.upper())  # HELLO, WORLD
 # print(message.count("l"))  # 3, Counts Number of Occurences
-# print(message.find("world"))  # 7, finds a string in a string
+# print(message.find("world"))  # 7, finds a string in a string, returns -1 if not found
 
 # new_message = message.replace("world", "universe")  # Returns a new string
 # print(new_message)

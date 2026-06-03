@@ -30,14 +30,13 @@ student.update({'name': 'Jane', 'age': 26, 'phone': '666-6666'})
 # age = student.pop('age')
 # print(student)  # {'name': 'Jane', 'courses': ['math', 'compSci'], 'phone': '666-6666'}
 
-
 # Length 
 # print(student, "Length:", len(student))  # {'name': 'Jane', 'age': 26, 'courses': ['math', 'compSci'], 'phone': '666-6666'} Length: 4
 
 # getting all keys and values
-print(student.keys())   # dict_keys(['name', 'age', 'courses', 'phone'])
-print(student.values()) # dict_values(['Jane', 26, ['math', 'compSci'], '666-6666'])
-print(student.items())  # dict_items([('name', 'Jane'), ('age', 26), ('courses', ['math', 'compSci']), ('phone', '666-6666')])
+print(student.keys())   # *  dict_keys(['name', 'age', 'courses', 'phone'])
+print(student.values()) # *  dict_values(['Jane', 26, ['math', 'compSci'], '666-6666'])
+print(student.items())  # *  dict_items([('name', 'Jane'), ('age', 26), ('courses', ['math', 'compSci']), ('phone', '666-6666')])
 
 for key in student:
   print(key, end=" ")   # name age courses phone 
@@ -49,6 +48,4 @@ key: age value: 26
 key: courses value: ['math', 'compSci']
 key: phone value: 666-6666
 '''
-
-
 

@@ -11,7 +11,7 @@ courses = ['python', 'math', 'compSci', 'history']
 # print(courses[:2])  # ['python', 'math'] 
 # print(courses[1:])  # ['math', 'compSci', 'history'] 
 
-# append 
+# * append 
 
 courses.append('Art') # gets added to the end -> ['python', 'math', 'compSci', 'history', 'Art']
 # print(courses)
@@ -31,7 +31,7 @@ new_courses = ['Chemistry', 'Databases', 'Operating Systems']
 
 courses.extend(new_courses)
 # print(courses)  # ['Geography', 'python', 'math', 'Physics', 'compSci', 'history', 'Art', 'Chemistry', 'Databases', 'Operating Systems']
-#                                                                                             ^             ^                 ^
+# #                                                                                            ^             ^                 ^
 
 # courses.extend(0, new_courses)  # ! Wrong 
 # print(courses)
@@ -51,7 +51,7 @@ nums = [1, 5, 3, 4, 2]
 # nums.sort()
 # print(nums) # [1, 2, 3, 4, 5]
 
-# Sort and Rverse Together
+# Sort and Reverse Together
 
 # courses.sort(reverse=True)
 # print(courses)  # ['python', 'history', 'compSci', 'Physics', 'Geography', 'Databases', 'Chemistry', 'Art']
@@ -98,7 +98,7 @@ Databases
 # Without Loop 
 # print(" ".join(courses))  # Geography python Physics compSci history Art Chemistry Databases
 
-# enumerate
+# * enumerate -> lets us have index and course together 
 
 # for index, course in enumerate(courses):
 #   print(index, course)
@@ -160,6 +160,8 @@ new_course_list = course_string.split('-')
 # print(tuple_1)
 # print(tuple_2)
 
+# * Set
+
 # cs_courses = {'history', 'math', 'physics', 'compSci'}
 # print(cs_courses) # Does not care about order, can be anything at every program execution
 
@@ -186,5 +188,5 @@ empty_list = list()
 empty_tuple = ()
 empty_tuple = tuple()
 
-empty_set = ()    # This is wrong way, This is empty dictionary
+empty_set = {}    # This is wrong way, This is empty dictionary
 empty_set = set()
