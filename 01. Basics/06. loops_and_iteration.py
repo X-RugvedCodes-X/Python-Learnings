@@ -24,9 +24,14 @@ nums = [1, 2, 3, 4, 5]
 #   print(i, end= " ")
 # * 0 1 2 3 4 5 6 7 8 9
 
-# for i in range(1, 11):
-#   print(i, end= " ")
+for i in range(1, 11):  
+  print(i, end= " ")
 # * 1 2 3 4 5 6 7 8 9 10
+
+# * range has
+# start: int
+# stop: int
+# step: int, step means how much to increament or decreament
 
 ####################################################################################################
 ####################################### ^ while loop ^ #############################################
