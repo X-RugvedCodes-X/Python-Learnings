@@ -35,6 +35,7 @@ A map object is lazy:
 #   for num in range(1, 4):
 #     # my_list.append(letter)
 #     # my_list.append(num)
+#     # Or
 #     my_list.append((letter, num))
 # # print(my_list)  # * ['a', 1, 'a', 2, 'a', 3, 'b', 1, 'b', 2, 'b', 3, 'c', 1, 'c', 2, 'c', 3, 'd', 1, 'd', 2, 'd', 3]
 # print(my_list)  # * [('a', 1), ('a', 2), ('a', 3), ('b', 1), ('b', 2), ('b', 3), ('c', 1), ('c', 2), ('c', 3), ('d', 1), ('d', 2), ('d', 3)]
