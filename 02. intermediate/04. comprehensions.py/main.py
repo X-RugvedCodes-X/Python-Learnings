@@ -7,7 +7,7 @@
 #   my_list.append(n)
 # print(my_list)  # * [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] -> Fair Enough
 
-# ^ In that Semantic Pytonic Way, we do
+# ^ In that Semantic Pythonic Way, we do
 # my_list = [n for n in nums] # & Most Important technique
 # print(my_list)  # * [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
